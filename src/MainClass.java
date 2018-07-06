@@ -7,7 +7,7 @@ public class MainClass {
 
         final Lock lock = new ReentrantLock();
 
-        Thread a = new Thread(new Runnable() {
+        Thread a = new Thread(new Runnable() {//
             @Override
             public void run() {
                 while (flag <= 30) {
